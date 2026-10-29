@@ -1,0 +1,64 @@
+name: Build iMusic IPA
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-ipa:
+    runs-on: macos-14
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Verify Xcode Project
+        run: |
+          PROJ_FILE=$(find . -name "iMusic.xcodeproj" -type d | head -n 1)
+          if [ -z "$PROJ_FILE" ] && [ -f "project.yml" ]; then
+            echo "Generating Xcode project via xcodegen..."
+            brew install xcodegen
+            xcodegen generate
+            PROJ_FILE="iMusic.xcodeproj"
+          fi
+          echo "Using Xcode Project: $PROJ_FILE"
+          echo "PROJ_PATH=$PROJ_FILE" >> $GITHUB_ENV
+
+      - name: Compile iMusic for iOS (Release - Unsigned)
+        run: |
+          xcodebuild clean build \
+            -project "$PROJ_PATH" \
+            -scheme iMusic \
+            -configuration Release \
+            -sdk iphoneos \
+            -derivedDataPath build \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Package Payload into iMusic.ipa
+        run: |
+          rm -rf Payload iMusic.ipa
+          mkdir -p Payload
+          APP_PATH=$(find build -name "iMusic.app" -type d | head -n 1)
+          echo "Found compiled app at: $APP_PATH"
+          cp -R "$APP_PATH" Payload/iMusic.app
+          zip -r9 iMusic.ipa Payload
+
+      - name: Upload iMusic.ipa Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: iMusic-Unsigned-IPA
+          path: iMusic.ipa
+
+      - name: Publish Direct IPA Download to GitHub Releases
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="v2.0.${{ github.run_number }}"
+          gh release create "$TAG" iMusic.ipa \
+            --title "iMusic v2.0 (AI Word-by-Word & Haptics)" \
+            --notes "حمل ملف iMusic.ipa مباشرة وثبته ووقعه عبر ESign أو Scarlet أو Feather أو Sideloadly." || true
