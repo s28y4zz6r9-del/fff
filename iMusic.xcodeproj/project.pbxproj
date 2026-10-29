@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741AF17588D33BE09EE036F2 /* iMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB49069124266699F0AD08B4 /* iMusicApp.swift */; };
+		CDE74E12A16B40AF6E3CA34D /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495308E3AAA41873F98FBBE2 /* SongModel.swift */; };
+		25D3CF986FD100274680634C /* AISongAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350F27B977DDE695B55D75A4 /* AISongAnalyzer.swift */; };
+		0CD89756D7DAB38F728BD500 /* AudioHapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D482FBB040A4FA3257E0A1 /* AudioHapticEngine.swift */; };
+		9D339137D64EDB8099E731B2 /* LiveCloudSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A2F9F225ADE6A3D7B7A592 /* LiveCloudSearchService.swift */; };
+		446F08EC10600094C1BB9EAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606C5501AF24F1BA74D4F968 /* ContentView.swift */; };
+		3590B4BA5F6D0AEE4E85FD4E /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B7368A2DABF98C89794943 /* NowPlayingView.swift */; };
+		E46686F7E80671050DD0C136 /* user_avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EF5DFCAC42DD8B830EA1021 /* user_avatar.jpg */; };
+		88C7A912A179DE77FB72CDCF /* imael_bad_times.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6063EA6E5DA39E8C096F4C62 /* imael_bad_times.jpg */; };
+		F034173EF1A7B5B085DDF442 /* elissa_awakher.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6916AF140A173D4281AA5A31 /* elissa_awakher.jpg */; };
+		4D128A3264650BE1D39EF540 /* nasser_leh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 638C14C3183DBE0059F37C54 /* nasser_leh.jpg */; };
+		110C21BE02F22B3CA8CB0387 /* elissa_khod_balak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 46EC0848BF789291214473D2 /* elissa_khod_balak.jpg */; };
+		FD48686DEE834C771BC3969B /* tamer_nasser_live.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04FA0C8ADCF254D7FA83F82C /* tamer_nasser_live.jpg */; };
+		B5A23E8E49B5EC5FF094D8FF /* elissa_fatet_sineen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F6274AA0EB63811C860F271 /* elissa_fatet_sineen.jpg */; };
+		36739BBDF7C355D77BD87ABA /* mustafa_ya_nas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBBEEAF64DD509B4E5A21CA8 /* mustafa_ya_nas.jpg */; };
+		ECE6BC7EB36761781395D517 /* tamer_ashour_nase.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 235A56BCFAF5C14D484B9D6D /* tamer_ashour_nase.jpg */; };
+		B328F6DA4947F515C95AB024 /* superbowl_jayz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3FC95F3CC3FCED239ED17A2 /* superbowl_jayz.jpg */; };
+		670792D58E4B13690EED6E1D /* mustafa_resala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB03F9C2FB3A797F3D266D2 /* mustafa_resala.jpg */; };
+		226A5A8A986252EAB46FDB74 /* mustafa_ana_mesh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B30F823EC57B8D4C9E4B3F5 /* mustafa_ana_mesh.jpg */; };
+		F1FE14C94C71629EA61C290B /* tamer_artist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAB4A6210D4EA8598FB24799 /* tamer_artist.jpg */; };
+		F3355FB69E33CCBF425AD9C5 /* tamer_nasseeny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5824B07B80D63B3175AA9997 /* tamer_nasseeny.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7FA166B3D2D812B47B67F76 /* iMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E0C083796C996E24956301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB49069124266699F0AD08B4 /* iMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMusicApp.swift; sourceTree = "<group>"; };
+		495308E3AAA41873F98FBBE2 /* SongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		350F27B977DDE695B55D75A4 /* AISongAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AISongAnalyzer.swift; sourceTree = "<group>"; };
+		D9D482FBB040A4FA3257E0A1 /* AudioHapticEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioHapticEngine.swift; sourceTree = "<group>"; };
+		23A2F9F225ADE6A3D7B7A592 /* LiveCloudSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCloudSearchService.swift; sourceTree = "<group>"; };
+		606C5501AF24F1BA74D4F968 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1B7368A2DABF98C89794943 /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
+		0EF5DFCAC42DD8B830EA1021 /* user_avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user_avatar.jpg; sourceTree = "<group>"; };
+		6063EA6E5DA39E8C096F4C62 /* imael_bad_times.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imael_bad_times.jpg; sourceTree = "<group>"; };
+		6916AF140A173D4281AA5A31 /* elissa_awakher.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elissa_awakher.jpg; sourceTree = "<group>"; };
+		638C14C3183DBE0059F37C54 /* nasser_leh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nasser_leh.jpg; sourceTree = "<group>"; };
+		46EC0848BF789291214473D2 /* elissa_khod_balak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elissa_khod_balak.jpg; sourceTree = "<group>"; };
+		04FA0C8ADCF254D7FA83F82C /* tamer_nasser_live.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tamer_nasser_live.jpg; sourceTree = "<group>"; };
+		8F6274AA0EB63811C860F271 /* elissa_fatet_sineen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elissa_fatet_sineen.jpg; sourceTree = "<group>"; };
+		CBBEEAF64DD509B4E5A21CA8 /* mustafa_ya_nas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mustafa_ya_nas.jpg; sourceTree = "<group>"; };
+		235A56BCFAF5C14D484B9D6D /* tamer_ashour_nase.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tamer_ashour_nase.jpg; sourceTree = "<group>"; };
+		D3FC95F3CC3FCED239ED17A2 /* superbowl_jayz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = superbowl_jayz.jpg; sourceTree = "<group>"; };
+		9DB03F9C2FB3A797F3D266D2 /* mustafa_resala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mustafa_resala.jpg; sourceTree = "<group>"; };
+		3B30F823EC57B8D4C9E4B3F5 /* mustafa_ana_mesh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mustafa_ana_mesh.jpg; sourceTree = "<group>"; };
+		DAB4A6210D4EA8598FB24799 /* tamer_artist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tamer_artist.jpg; sourceTree = "<group>"; };
+		5824B07B80D63B3175AA9997 /* tamer_nasseeny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tamer_nasseeny.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36E2D336F4D2831692B077F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C999E731352905727541C3C = {
+			isa = PBXGroup;
+			children = (
+				68D5B4C5FCC67ACAE830A3F9 /* iMusic */,
+				6D159F361021D92BC3E10E55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D159F361021D92BC3E10E55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7FA166B3D2D812B47B67F76 /* iMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68D5B4C5FCC67ACAE830A3F9 /* iMusic */ = {
+			isa = PBXGroup;
+			children = (
+				EB49069124266699F0AD08B4 /* iMusicApp.swift */,
+				0BAE3B150B8EC55F3FAF0C01 /* Models */,
+				EBEF7C92E047BC8F73206D87 /* Services */,
+				27E84255ED83F111C48120AC /* Views */,
+				81D01C0FD21E979897052079 /* Resources */,
+				61E0C083796C996E24956301 /* Info.plist */,
+			);
+			path = iMusic;
+			sourceTree = "<group>";
+		};
+		0BAE3B150B8EC55F3FAF0C01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				495308E3AAA41873F98FBBE2 /* SongModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EBEF7C92E047BC8F73206D87 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				350F27B977DDE695B55D75A4 /* AISongAnalyzer.swift */,
+				D9D482FBB040A4FA3257E0A1 /* AudioHapticEngine.swift */,
+				23A2F9F225ADE6A3D7B7A592 /* LiveCloudSearchService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		27E84255ED83F111C48120AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				606C5501AF24F1BA74D4F968 /* ContentView.swift */,
+				C1B7368A2DABF98C89794943 /* NowPlayingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81D01C0FD21E979897052079 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F75345BB17BA23067E43206 /* Artwork */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6F75345BB17BA23067E43206 /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				0EF5DFCAC42DD8B830EA1021 /* user_avatar.jpg */,
+				6063EA6E5DA39E8C096F4C62 /* imael_bad_times.jpg */,
+				6916AF140A173D4281AA5A31 /* elissa_awakher.jpg */,
+				638C14C3183DBE0059F37C54 /* nasser_leh.jpg */,
+				46EC0848BF789291214473D2 /* elissa_khod_balak.jpg */,
+				04FA0C8ADCF254D7FA83F82C /* tamer_nasser_live.jpg */,
+				8F6274AA0EB63811C860F271 /* elissa_fatet_sineen.jpg */,
+				CBBEEAF64DD509B4E5A21CA8 /* mustafa_ya_nas.jpg */,
+				235A56BCFAF5C14D484B9D6D /* tamer_ashour_nase.jpg */,
+				D3FC95F3CC3FCED239ED17A2 /* superbowl_jayz.jpg */,
+				9DB03F9C2FB3A797F3D266D2 /* mustafa_resala.jpg */,
+				3B30F823EC57B8D4C9E4B3F5 /* mustafa_ana_mesh.jpg */,
+				DAB4A6210D4EA8598FB24799 /* tamer_artist.jpg */,
+				5824B07B80D63B3175AA9997 /* tamer_nasseeny.jpg */,
+			);
+			path = Artwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86524AADF3B376249F417791 /* iMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC720D5B68CDA1A1039E795 /* Build configuration list for PBXNativeTarget "iMusic" */;
+			buildPhases = (
+				DE6EE531638FBF802B9F50F8 /* Sources */,
+				36E2D336F4D2831692B077F8 /* Frameworks */,
+				505DCE76C480DFFAA8952713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMusic;
+			productName = iMusic;
+			productReference = B7FA166B3D2D812B47B67F76 /* iMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9657A0BB800493547F34E43F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					86524AADF3B376249F417791 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 736711F68BB9BCBE13D8F047 /* Build configuration list for PBXProject "iMusic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ar;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ar,
+				en,
+				Base,
+			);
+			mainGroup = 5C999E731352905727541C3C;
+			productRefGroup = 6D159F361021D92BC3E10E55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86524AADF3B376249F417791 /* iMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		505DCE76C480DFFAA8952713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46686F7E80671050DD0C136 /* user_avatar.jpg in Resources */,
+				88C7A912A179DE77FB72CDCF /* imael_bad_times.jpg in Resources */,
+				F034173EF1A7B5B085DDF442 /* elissa_awakher.jpg in Resources */,
+				4D128A3264650BE1D39EF540 /* nasser_leh.jpg in Resources */,
+				110C21BE02F22B3CA8CB0387 /* elissa_khod_balak.jpg in Resources */,
+				FD48686DEE834C771BC3969B /* tamer_nasser_live.jpg in Resources */,
+				B5A23E8E49B5EC5FF094D8FF /* elissa_fatet_sineen.jpg in Resources */,
+				36739BBDF7C355D77BD87ABA /* mustafa_ya_nas.jpg in Resources */,
+				ECE6BC7EB36761781395D517 /* tamer_ashour_nase.jpg in Resources */,
+				B328F6DA4947F515C95AB024 /* superbowl_jayz.jpg in Resources */,
+				670792D58E4B13690EED6E1D /* mustafa_resala.jpg in Resources */,
+				226A5A8A986252EAB46FDB74 /* mustafa_ana_mesh.jpg in Resources */,
+				F1FE14C94C71629EA61C290B /* tamer_artist.jpg in Resources */,
+				F3355FB69E33CCBF425AD9C5 /* tamer_nasseeny.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE6EE531638FBF802B9F50F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741AF17588D33BE09EE036F2 /* iMusicApp.swift in Sources */,
+				CDE74E12A16B40AF6E3CA34D /* SongModel.swift in Sources */,
+				25D3CF986FD100274680634C /* AISongAnalyzer.swift in Sources */,
+				0CD89756D7DAB38F728BD500 /* AudioHapticEngine.swift in Sources */,
+				9D339137D64EDB8099E731B2 /* LiveCloudSearchService.swift in Sources */,
+				446F08EC10600094C1BB9EAD /* ContentView.swift in Sources */,
+				3590B4BA5F6D0AEE4E85FD4E /* NowPlayingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		502E31E762EB0814E8754C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B694D87B23F8E8A956EA7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBFAA4D8EA379BB5C0018DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = iMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imusic.aiplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Debug;
+		};
+		9DA6D38126171AC87B61A83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = iMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imusic.aiplayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		736711F68BB9BCBE13D8F047 /* Build configuration list for PBXProject "iMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502E31E762EB0814E8754C21 /* Debug */,
+				9B694D87B23F8E8A956EA7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC720D5B68CDA1A1039E795 /* Build configuration list for PBXNativeTarget "iMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFAA4D8EA379BB5C0018DBA /* Debug */,
+				9DA6D38126171AC87B61A83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 9657A0BB800493547F34E43F /* Project object */;
+}
